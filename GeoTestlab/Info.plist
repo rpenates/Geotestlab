@@ -56,5 +56,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Se necesita la camara para tomar registros</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Se necesita acceso a la galeria para obtener imagenes</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Se necesita la ubicacion para completar registros</string>
 </dict>
 </plist>

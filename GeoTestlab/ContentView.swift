@@ -9,8 +9,25 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @ObservedObject private var contentViewVM:ContentViewVM = ContentViewVM()
+    
     var body: some View {
-        Text("Hello, World!")
+  TabView {
+     RegisterPhotoView()
+       .tabItem {
+          Image(systemName: "camera.fill")
+          Text("Registro")
+     }
+     PlacesView()
+       .tabItem {
+          Image(systemName: "location.fill")
+          Text("Mis Lugares")
+    }
+  }
+       
+       
+ 
     }
 }
 
